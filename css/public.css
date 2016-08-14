@@ -1,0 +1,19 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,p,input,br,img{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	font-family:Arial,"微软雅黑"；
+}
+
+a{
+	text-decoration:none;
+	color:#333;
+}
+img{
+	border:none;
+}
+
+
+
+
+

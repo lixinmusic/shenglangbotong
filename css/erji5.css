@@ -1,0 +1,393 @@
+/* 背景图 */
+.dingtu{
+	width: 1349px;
+	height:1480px;
+	border-bottom:1px solid #C1C2C4;
+	margin: 0 auto;
+	background: #E8EFF7; 
+  position:relative;
+  }
+  .beijingtu1 img{
+  	width: 1349px;
+  	height: 100px;
+  	position: absolute;
+  	top:0;
+  	left: 0;
+  	bor der:1px solid red;
+
+  }
+  .beijingtu2 img{
+  	width: 1349px;
+  	height: 340px;
+  	margin-top:0px; 
+  	position: absolute;
+  	top:100px;
+  	left:0;
+  	bo rder:1px solid red;
+  }
+  .beijingtu3 img{
+  	width: 1349px;
+  	height:324px;
+  	margin-top:0px; 
+  	position: absolute;
+  	top:440px;
+  	left:0;
+  	
+  }
+  .jiajia{
+    width: 1349px;
+    height: 930px;
+     position: absolute;
+    top:1420px;
+    left:0;
+    background: #EEF2F5;
+
+  }
+  .dia{
+    width: 1349px;
+    height: 99px;
+    position: absolute;
+    top:2350px;
+    left:0;
+    background: #EEF2F5;
+    border-top:1px solid #C1C2C4;
+    z-index: 5;
+  }
+  /* 背景图 结束*/
+  /* logo的开始 */
+  .logo{
+    width: 998px;
+    height: 103px;
+    bor der:1px solid black;
+     backg round:red;
+    position: absolute;
+    top:0px;
+    left:176px;
+    z-index: 2;
+
+  }
+  .logo .logotu img{
+    width: 476px;
+    height: 36px;
+    margin-top:39px;
+    margin-left:37px;
+    _margin-left:17px; 
+
+  }
+  .youkuang{
+    width: 231px;
+    height: 26px;
+    bo rder:1px solid black;
+    bor der-radius: 10%;
+    float:right;
+    margin-right: 34px;
+    _margin-right:10px;
+    background: url(../images/toptu.jpg) no-repeat; 
+    }
+  .youkuang a{
+    color:#A2A2A3;
+    font-size: 13px;
+    padding: 2px 9px;
+  }
+    /* logo的结束 */
+    /*     导航栏的部分开始 */
+.zhezhu{
+  width: 20px;
+  height: 40px;
+  back ground: #FF8D13;
+  position: absolute;
+  top:125px;
+  left:180px;
+  z-index: 3;
+  backgr ound: url(../images/zhezhu.png) no-repeat;
+}
+.shuxian{
+  width: 7px;
+  height: 47px;
+  position: absolute;
+  top:5px;
+  left: 122px;
+
+}
+.daohang{
+  width: 998px;
+  height: 53px;
+  background:#083F68;
+  position: absolute;
+  top:110px;
+  left:180px;
+  z-index: 2;
+}
+.daohang li{
+  width: 88px;
+  height: 53px;
+  float: left;
+  margin-left: 28px;
+
+}
+
+.daohang a{
+  display: block;
+  width: 108px;
+  height: 53px;
+}
+.nav1{
+   background:url(../images/nav1.jpg) no-repeat center;
+}
+.nav2{ 
+  background:url(../images/nav2.jpg) no-repeat center;
+}
+.nav2 a:hover{ 
+  background:url(../images/nava2.jpg) no-repeat;
+  display: block;
+  /* background: url(../images/) no-repeat; */ 
+
+}
+.nav3{ 
+  background:url(../images/nav3.jpg) no-repeat center;
+}
+.nav3 a:hover{ 
+  background:url(../images/nava3.jpg) no-repeat center;
+}
+
+.nav4{ 
+  background:url(../images/nav4.jpg) no-repeat center;
+}
+.nav4 a:hover{ 
+  background:url(../images/nava4.jpg) no-repeat center;
+}
+  
+.nav5{ 
+  background:url(../images/nav5.jpg) no-repeat center;
+}
+.nav5 a:hover{ 
+  background:url(../images/nava5.jpg) no-repeat center;
+}
+  
+  .nav6{ 
+  background:url(../images/nav6.jpg) no-repeat center;
+}
+.nav6 a:hover{ 
+  background:url(../images/nava6.jpg) no-repeat center;
+}
+  
+.nav7{ 
+  background:url(../images/nav7.jpg) no-repeat center;
+}
+.nav7 a:hover{ 
+  background:url(../images/nava7.jpg) no-repeat center;
+}
+  
+
+.nav8{ 
+  background:url(../images/nav8.jpg) no-repeat center;
+}
+.nav8 a:hover{ 
+  background:url(../images/nava8.jpg) no-repeat center;
+}
+/* banner轮播的图开始 */
+.banner{
+  width: 1001px;
+  height: 271px;
+  border:2px solid #fff;
+  position: absolute;
+  top:181px;
+  left: 180px;
+  background: red;
+  z-index: 3;
+  background: url(../images/banner.png);
+}
+.banner a{
+  position: absolute;
+  top:0px;
+  left:0px;
+  opacity:0;
+  overflow:hidden;
+  z-index: 3;
+
+}
+
+
+.btn{
+  width: 17px;
+  height: 177px;
+  background:rgba(0,0,0,0.5);
+  position: absolute;
+  top:80px;
+  left:970px;
+  z-index: 4;
+}
+.box{
+  width: 5px;
+  height: 28px;
+  background: #ff9012;
+  margin:0 auto;
+  margin-top: 15px;
+  cursor:pointer;
+}  
+/* banner轮播的图结束 */
+
+.huanyin{
+  width: 1008px;
+  height: 54px;
+  margin:0 auto;
+  background: url(../images/wel.jpg);
+  position: absolute;
+  top:455px;
+  left:178px;
+   z-index: 2;
+   margin:0 auto;
+}
+.hy{
+  width: 258px;
+  height: 15px;
+  position: absolute;
+  top:20px;
+  left:70px;
+  background: url(../images/hy.jpg);
+  z-index: 4;
+}
+/* 要写要换的部分 */
+/* 左边的部分 */
+.bigbox{
+  width: 1004px;
+  height: 800px;
+  background: #fff;
+  position: absolute;
+  top:520px;
+  left:176px;
+}
+.lefta{
+  width: 238px;
+  height: 569px;
+  border-right:1px solid #ccc;
+  float: left;
+}
+.mulu img{
+  margin-top: 33px;
+
+}
+.type{
+  width: 209px;
+  padding-top: 46px;
+  bor der:1px solid black;
+  margin:0 auto;
+}
+.type ul li{
+  line-height: 36px;
+  padding-left: 14px;
+  border-bottom: 1px solid #dbdbdb;
+}
+.type ul li a{
+  color:#828385;
+  font-weight: bold;
+  font-size:14px;
+}
+.type ul li a:hover{
+  color:#51A8F7;
+}
+.ertu p img{
+  width: 223px;
+  height: 228px;
+  margin: 0 auto;
+  float: left;
+  margin-left: 10px;
+  _margin-left:5px;
+  margin-top:40px;
+}
+/* 右边的部分 */
+
+.erright{
+  width: 690px;
+  height: 800px;
+  bor der:1px solid black;
+  float: left;
+  margin-left: 40px;
+  _margin-left:20px;
+}
+.hh{
+  width: 100%;
+  height: 26px;
+  clear:both;
+  line-height: 26px;
+}
+.righttop{
+  float: left;
+  padding-right: 4px;
+}
+.cookies{
+  float: right;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 12px;
+  color:#646464;
+  margin-left: 10px;
+}
+.cookies a{
+  color:#646464;
+}
+.about{
+  height: 208px;
+  border-bottom: 1px dashed #b8b8b8;
+}
+.zizibox{
+  width: 692px;
+  height: 431px;
+  bor der:1px solid black;
+  margin-top: 10px;
+}
+.zizibox p{
+  text-indent: 2em;
+  font-size: 12px;
+  color:#646464;
+  line-height: 2;
+
+}
+/* 下面是内容结束 */
+/* 底部的版权的部分开始 */
+
+.dilogo img{
+  width: 157px;
+  height:56px;
+  position: absolute;
+  top:850px;
+  left:0;
+  z-index: 4;
+  display: block;
+}
+.bottom{
+  width: 499px;
+  height: 65px;
+  bor der:1px solid black;
+  position: absolute;
+  top:850px;
+  left:191px;
+  font-size: 12px;
+  color:#646464;
+}
+.bottom a{
+   font-size: 12px;
+  color:#646464;
+
+}
+
+.bb{
+  width: 997px;
+  height: 4px;
+  border-bottom: 4px solid #073D69;
+  position: absolute;
+  top:75px;
+  left: -197px;
+  color:rgb(102,102,102);
+}
+
+.bb img{
+  margin-left: -170px;
+}
+
+
+
+
+
+
+
